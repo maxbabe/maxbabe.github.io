@@ -12,6 +12,11 @@ padding:0;
     
 }
 
+.sticky{
+    position: sticky;
+    top:0;
+}
+
 header{
     display:flex;
     justify-content: center;
@@ -36,6 +41,7 @@ nav{
     border-bottom: #f0b823 solid 2px;
     background: #000000;
     padding-top: 20px;
+   
   
 }
 
@@ -146,5 +152,6 @@ main{
     grid-row:3;
     padding-left:10px;
     padding-right:10px;
+    padding-top:50px;
 }
 
