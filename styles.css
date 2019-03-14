@@ -61,24 +61,37 @@ nav{
     background:black;
     grid-column:2;
     grid-row:1;
-    color:white;
     text-align: right;
+
     }
-.menuButton a{
+
+.menuclick {
     color:white;
-    text-decoration:none;
     font-size:1.2em;
     font-weight: 400;
     text-shadow: 1px 1px grey;
     padding-right:30px;
     padding-bottom: 20px;
-
+    text-decoration: none;
     }
 
-   .icon{
-        font-size: 25px;
-        padding:0;
-        margin:0;
+.menuclick a {
+      text-decoration: none;
+      color:white;
+            }
+
+        .icon {
+            font-size: 25px;
+            padding:0;
+            padding-right: 5px;
+            margin:0;
+            text-decoration:none;
+            color: white;
+        }
+
+   .icon a{
+       text-decoration:none;
+        color: white;
     }
     
 
