@@ -12,7 +12,6 @@ if (issett($_POST['submit'])) {
 
   
   mail($mailTo ,$headers, $txt);
-  header("Location: index.html?mailsend");
-    # code...
+  header("Location: thankyou.html?mailsend");
 }
 
