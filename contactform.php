@@ -12,7 +12,7 @@ if (issett($_POST['submit'])) {
 
   
   mail($mailTo ,$headers, $txt);
-  header("Location: thankyou.html");
+  header("Location: index.html?mailsend");
     # code...
 }
 
