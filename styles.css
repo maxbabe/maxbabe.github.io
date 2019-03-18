@@ -52,7 +52,8 @@ nav{
     grid-template-rows: auto;
     border-bottom: #f0b823 solid 2px;
     background: #000000;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom:10px;
     display:-ms-grid;
     -ms-grid-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -70,7 +71,6 @@ nav{
     text-shadow: 1px 1px grey;
     color: white;
     padding-left: 30px;
-    padding-bottom: 20px;
   }
 
   .head p {
@@ -267,7 +267,15 @@ textarea{
       color:white;
       font-size: 1.2em;
       display: flex;
-      justify-content: space-around;
+      justify-content:center;
+  }
+
+  .facebook{
+      padding-top:20px;
+      text-align:center;
+  }
+  .facebook img{
+      padding-right: 20px;
   }
 
 
@@ -312,7 +320,6 @@ textarea{
             margin:0;
             padding-top: 20px;
             padding-bottom: 20px;
-            padding-left: 40px;
         }
         
         nav{
@@ -378,6 +385,14 @@ textarea{
             justify-content: space-around;
 
         }
+
+        #menu li{
+            border-top: #000000 solid 1px;
+            padding:0;
+            margin:0;
+            
+        }
+        
         
         #menu a{
             background:black;
@@ -391,21 +406,17 @@ textarea{
         } 
 
         #menu a:hover{
-        background: #e8e6e6;
+        border-bottom: 1px solid #f0b823;
         padding: 10px;
         border-radius: 10px;
         color:#f0b823;
         font-weight:500;
+        transition-timing-function: ease-in-out;
 
     }
-        
-        #menu li{
-            border-top: #000000 solid 1px;
-            padding:0;
-            margin:0;
-            
-        }
-        
+
+         
+       
         
         /***************  THIS IS THE START OF THE MAIN SECTION WITH SERVICES / BLOG / CONCTACT  *************************/
         
